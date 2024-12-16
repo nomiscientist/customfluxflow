@@ -19,26 +19,8 @@ const priorityFlowIds = [
 const categoryKeywords = [
     'Base',
     'Image to Image',
-    'Image to Video',
-    'Video',
-    'Image',
-    'Stable Diffusion',
     'Flux',
     'Flux Dev',
-    'Schnell',
-    'Lora',
-    'VAE',
-    'GGUF',
-    'Pulid',
-    'CogVideoX',
-    'Mochi',
-    'Paint',
-    'Inpaint',
-    'Inpainting',
-    'Detailer',
-    'Canvas',
-    'Remover',
-    'Background',
 ];
 
 const defaultPreferences = {
