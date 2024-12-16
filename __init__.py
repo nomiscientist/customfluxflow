@@ -735,7 +735,6 @@ def download_or_update_flows() -> None:
         "afl_cogvidx_at2v",
         "afl_cogvidxi2v",
         "afl_cogvidxinteri2v",
-        "afl_flowup",
         "afl_flux_dev",
         "afl_flux_dev_lora",
         "afl_genfill",
