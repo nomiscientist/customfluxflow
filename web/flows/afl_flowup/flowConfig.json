@@ -1,0 +1,20 @@
+{
+  "id": "flupdate",
+  "name": "Flow Updates",
+  "url": "flupdate",
+  "description": "Don't miss a feature!",
+  "workflowInputs": [
+  ],
+  "seeders": [
+  ],
+  "steppers": [
+  ],
+  "dropdowns": [
+  ],
+  "multiSteppers": [],
+  "dropdownSteppers": [],
+  "dimensionSelectors": [
+  ],
+  "imageLoaders": [],
+  "configCustomNodes": []
+}
