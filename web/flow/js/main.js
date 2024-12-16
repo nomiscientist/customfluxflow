@@ -665,7 +665,7 @@ function setFloatingCharacter(currentVersion, latestVersion) {
             
             floatingCharacter.addEventListener('click', () => {
 
-                floatingCharacter.style.animation = 'moveUp  0.3s ease-out forwards';
+                // floatingCharacter.style.animation = 'moveUp  0.3s ease-out forwards';
                 
                 setTimeout(() => {
                     showUpdateDialog(currentVersion, latestVersion);
