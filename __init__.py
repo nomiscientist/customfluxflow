@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 
 AppConfig = Dict[str, Any]
 Routes = web.RouteTableDef
-FLOWS_DOWNLOAD_PATH = 'https://github.com/diStyApps/flows_lib2'
+FLOWS_DOWNLOAD_PATH = 'https://github.com/diStyApps/flows_lib'
 NODE_CLASS_MAPPINGS: Dict[str, Any] = {}
 NODE_DISPLAY_NAME_MAPPINGS: Dict[str, str] = {}
 APP_CONFIGS: List[AppConfig] = []
