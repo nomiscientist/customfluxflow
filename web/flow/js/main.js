@@ -85,9 +85,9 @@ const createElement = (type, className, textContent = '') => {
 function createFlowCard(flow) {
     // Change the titles for the specified priority flows
     if (flow.id === '30kk2') {
-        flow.name = "Text to Image - AI Artist";
+        flow.name = "Text to Image - AI Diamond Artist";
     } else if (flow.id === 'n0y8e') {
-        flow.name = "Image to Image - AI Artist";
+        flow.name = "Image to Image - AI Diamond Artist";
     }
 
     const card = createElement('a', 'flow-card');
