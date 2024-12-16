@@ -1,8 +1,8 @@
 {
   "id": "n0y8e",
-  "name": "Base - Flux Dev Image to Image",
+  "name": "Image to Image - AI Artist",
   "url": "n0y8e-base-flux-dev-image-to-image",
-  "description": "Basic image to image with Flux Dev",
+  "description": "Image to image with AI Diamond Artist",
   "prompts": [
     {
       "id": "promptfkpo91",

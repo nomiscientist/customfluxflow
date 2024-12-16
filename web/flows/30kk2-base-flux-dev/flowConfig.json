@@ -1,8 +1,8 @@
 {
   "id": "30kk2",
-  "name": "Base - Flux Dev",
+  "name": "Text to Image - AI Artist",
   "url": "30kk2-base-flux-dev",
-  "description": "Basic image generation with Flux Dev",
+  "description": "Image generation with AI Diamond Artist",
   "prompts": [
     {
       "id": "prompt7zwm3c",
