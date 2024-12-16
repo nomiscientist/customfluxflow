@@ -296,7 +296,10 @@ function filterCurrentFlows() {
 function renderFlows(flows) {
     const flowGrid = document.getElementById('flowGrid');
     flowGrid.innerHTML = '';
-    flows.forEach(flow => {
+    // Filter flows to only include the priority flow IDs
+    const filteredFlows = flows.filter(flow => priorityFlowIds.includes(flow.id));
+
+    filteredFlows.forEach(flow => {
         if (flow.id !== 'menu') {
             const flowCard = createFlowCard(flow);
             flowGrid.appendChild(flowCard);
@@ -304,6 +307,7 @@ function renderFlows(flows) {
     });
     updateFlowCardVisibility();
 }
+
 
 function animateFlowReorder() {
     const flowGrid = document.getElementById('flowGrid');
