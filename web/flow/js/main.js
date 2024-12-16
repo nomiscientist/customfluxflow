@@ -620,29 +620,6 @@ function createFloatingCharacter(currentVersion) {
 
 function showUpdateDialog(currentVersion, latestVersion) {
     const dialogHTML = `
-        <div class="update-dialog-overlay">
-            <div class="update-dialog-container">
-                <div class="update-character">
-          <img src="/core/media/ui/update_logo.png" alt="Update Avatar" />
-                </div>
-                <div class="update-dialog">
-                    <div class="update-content">
-                        <h2>New Update Available!</h2>
-                        <p>Version ${latestVersion} is ready to install</p>
-                        <p class="version-info">Current version: ${currentVersion}</p>
-                        
-                        <div class="update-actions">
-                            <button class="update-now-btn">
-                                <span class="btn-text">Send me to ComfyUI to Update Now</span>
-                                <span class="btn-icon">→</span>
-                            </button>
-                            <button class="remind-later-btn">Later</button>
-                        </div>
-                    </div>
-                </div>
-                <button class="close-dialog-btn" aria-label="Close">&times;</button>
-            </div>
-        </div>
     `;
 
     document.body.insertAdjacentHTML('beforeend', dialogHTML);
