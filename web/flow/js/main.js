@@ -83,9 +83,16 @@ const createElement = (type, className, textContent = '') => {
 };
 
 function createFlowCard(flow) {
+    // Change the titles for the specified priority flows
+    if (flow.id === '30kk2') {
+        flow.name = "Text to Image - AI Artist";
+    } else if (flow.id === 'n0y8e') {
+        flow.name = "Image to Image - AI Artist";
+    }
+
     const card = createElement('a', 'flow-card');
     card.href = `flow/${flow.url}`;
-   
+
     if (flow.url === 'linker') {
         card.target = "_blank";
         card.rel = "noopener noreferrer";
@@ -122,6 +129,7 @@ function createFlowCard(flow) {
     card.dataset.flowId = flow.id;
     return card;
 }
+
 
 function extractCategories(name) {
     const categories = new Set();
