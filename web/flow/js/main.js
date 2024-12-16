@@ -12,21 +12,8 @@ let favoritesFilterActive = false;
 const FAVORITES_KEY = 'FlowFavorites';
 const openInNewTab = false;
 const priorityFlowIds = [
-    'flupdate',
-    'fltuts',
-    '2m1x4',
-    'afoye',
     '30kk2',
     'n0y8e',
-    'yigqn',
-    '12slf',
-    '89hf7',
-    'y2gic',
-    'f9k2j',
-    'k5ttn',
-    '3pw8q',
-    '67e3l',
-    'j4wox',
 ]; 
 
 const categoryKeywords = [
