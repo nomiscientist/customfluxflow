@@ -604,13 +604,6 @@ function isNewerVersion(current, latest) {
 
 function createFloatingCharacter(currentVersion) {
     const floatingHTML = `
-        <div class="floating-update-character">
-            <img src="/core/media/ui/update_logo.png" alt="Update Character" />
-            <div class="update-indicator">
-                <span class="update-dot"></span>
-                <span class="version-label">${currentVersion}</span>
-            </div>
-        </div>
     `;
     document.body.insertAdjacentHTML('beforeend', floatingHTML);
 
