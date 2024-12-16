@@ -661,7 +661,7 @@ function showUpdateDialog(currentVersion, latestVersion) {
 function setFloatingCharacter(currentVersion, latestVersion) {
     if (isNewerVersion(currentVersion, latestVersion)) {
         if (!document.querySelector('.floating-update-character')) {
-            const floatingCharacter = createFloatingCharacter(`New Update Available!`);
+            const floatingCharacter = createFloatingCharacter(``);
             
             floatingCharacter.addEventListener('click', () => {
 
